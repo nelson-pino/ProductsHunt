@@ -11,7 +11,7 @@ const Layout = (props) => {
           :root {
             --gris: #3d3d3d;
             --grid2: #6f6f6f;
-            --naranja: #da552f;
+            --naranja: #da552f;cls
           }
           html {
             font-size: 62.5%;
@@ -44,7 +44,18 @@ const Layout = (props) => {
       />
       <Head>
         <html lang="es" />
-        <title>Product Hunt Firebase y Next.js</title>
+        <title>Product Hunt Firebase y Next.js </title>
+        <meta property="og:title" content="My page title" key="title" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main>{props.children}</main>
