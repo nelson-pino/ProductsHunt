@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        <Heading>Inicio</Heading>
+        <Heading>Login</Heading>
       </Layout>
     </div>
   );

@@ -5,11 +5,11 @@ const Heading = styled.h1`
   color: blue;
 `;
 
-export default function Home() {
+export default function populares() {
   return (
     <div>
       <Layout>
-        <Heading>Inicio</Heading>
+        <Heading>Populares</Heading>
       </Layout>
     </div>
   );
